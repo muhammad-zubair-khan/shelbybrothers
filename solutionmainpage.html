@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<!-- Title -->
+<title>SHELBEY | SOLUTION</title>
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="logoandfavicon\favicon1.ico" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="logoandfavicon\apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="logoandfavicon\favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logoandfavicon\favicon-16x16.png">
+<link rel="manifest" href="logoandfavicon\site.webmanifest">
+
+
+<!-- Font-Awesome-Link -->
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+<!-- CSS Here -->
+   <!-- MagnificPopup.css -->
+   <link rel="stylesheet" href="assets/css/magnific-popup.css">
+   <!-- SlickNav.css -->
+   <link rel="stylesheet" href="assets/css/slicknav.min.css">
+   <!-- Owl.carousel.css -->
+   <link rel="stylesheet" href="assets/css/owl.carousel-2.3.4.min.css">
+   <!-- Fontawesome.css -->
+   <link rel="stylesheet" href="assets/css/fontawesome-free-5.12.0.min.css">
+   <!-- Bootstrap.css -->
+   <link rel="stylesheet" href="assets/css/bootstrap-4.3.1.min.css">
+   <!-- Default.css -->
+   <link rel="stylesheet" href="assets/css/default.css">
+   <!-- Style.css -->
+   <link rel="stylesheet" href="assets/css/style.css">
+   <!-- Responsive.css -->
+   <link rel="stylesheet" href="assets/css/responsive.css">
+   <link rel="stylesheet" href="assets/css/theme-colors/searchstyle1.css">
+   <!-- ColorNip.css -->
+   <link rel="stylesheet" href="assets/css/colornip.min.css">
+   <link id="theme" rel="stylesheet" href="assets/css/theme-colors/theme-default.css">
+
+
+   <!-- Jquery -->
+   <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!-- Sub-page css -->
+   <link rel="stylesheet" href="assets\css\subpage.css">
+
+    <!-- Data-aos -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+<body>
+
+    <div class="search-overlay"></div>
+    <!-- Search Modal -->
+    <div class="modal fade" id="search-modal">
+        <div class="modal-dialog">
+             <div class="modal-content">
+                 <form action="index.html" class="search-popup-wrapper">
+                    <input  onfocus="myFunction()" type="search" id="search-input" class="search-box-cls" placeholder="Search Here...">
+                     <i class="fas fa-search"></i>
+                 </form>
+                 <div class="search-list-wrapper">
+                    <ul id="movie-list">
+                        <li><a href="communication.html" class="title" name="search-list">Communication</a></li>
+                        <li><a href="healthcare.html" class="title" name="search-list">Healthcare</a></li>
+                        <li><a href="financialservices.html" class="title" name="search-list">Financial Services</a></li>
+                        <li><a href="retail&ecommerce.html" class="title" name="search-list">Retail & ECommerce</a></li>
+                        <li><a href="Transportation&Logistics.html" class="title" name="search-list">Transport & Logistics</a></li>
+                        <li><a href="technology.html" class="title" name="search-list">Technology</a></li>
+                        <li><a href="Travel&Hospitality.html" class="title" name="search-list">Travel & Hospitality</a></li>
+                        <li><a href="energy&utility.html" class="title" name="search-list">Energy and Utilities</a></li>
+                        <li><a href="publicSector.html" class="title" name="search-list">Public Sector</a></li>
+                        <li><a href="customer Experience manegement.html" class="title" name="search-list">Customer Experience</a></li>
+                        <li><a href="CustomerCare.html" class="title" name="search-list">Customer Care Services</a></li>
+                        <li><a href="RevenueGeneration.html" class="title" name="search-list">Revenue Generation</a></li>
+                        <li><a href="TechnicalSupportServices&Solutions.html" class="title" name="search-list">Technical support Services and Solutions</a></li>
+                        <li><a href="Omnichannel.html" class="title" name="search-list">Omni Channel</a></li>
+                        <li><a href="BackOffice.html" class="title" name="search-list">Back Office</a></li>
+                        <li><a href="solutionmainpage.html" class="title" name="search-list">Solution</a></li>
+                        <li><a href="industrieshome.html" class="title" name="search-list">Industries</a></li>
+                        <li><a href="Company.html" class="title" name="search-list">Company</a></li>
+                        <li><a href="OurLeadership.html" class="title" name="search-list">Our Leadership</a></li>
+                        <li><a href="Our People.html" class="title" name="search-list">Our People</a></li>
+                        <li><a href="Careers.html" class="title" name="search-list">Careers</a></li>
+                        <li><a href="contact.html" class="title" name="search-list">Contact</a></li>
+                    </ul>
+                  </div>
+             </div>
+         </div>
+     </div>
+     <!-- End Search Modal -->
+    <!-- Start Header Area -->    
+        <div class="navigation-wrap bg-light start-header start-style">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md navbar-light">
+                        
+                            <a href="/index.html"><img style="  width: 226px; height: 46px;"  src="logoandfavicon\weblogo.png" alt=" Shelbey brothers" > </a>
+                            
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="solutionmainpage.html" role="button" aria-haspopup="true" aria-expanded="false">Solution</a>
+                                        <div class="dropdown-menu">
+                                          <a class="dropdown-item" href="customer Experience manegement.html">CUSTOMER EXPERIENCE <br> MANENGMENT <i class="fas fa-angle-right"></i></a>
+                                          <a class="dropdown-item" href="CustomerCare.html">Customer Care Services</a>
+                                          <a class="dropdown-item" href="RevenueGeneration.html">Revenue Generation</a>
+                                          <a class="dropdown-item" href="TechnicalSupportServices&Solutions.html">Technical Support Services and Solutions</a>
+                                          <a class="dropdown-item" href="Omnichannel.html">Omni Channel</a>
+                                          <a class="dropdown-item" href="BackOffice.html">Back Office</a>
+                                          <a class="dropdown-item more-home-page" style="color: blueviolet; " onmouseover="this.style.background = 'none'"   href="solutionmainpage.html">Check for more Solutions...</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="industrieshome.html" role="button" aria-haspopup="true" aria-expanded="false">Industries</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="communication.html">COMMUNICATIONS</a>
+                                            <a class="dropdown-item" href="healthcare.html">HEALTHCARE</a>
+                                            <a class="dropdown-item" href="financialservices.html">FINANCIAL SERVICES</a>
+                                            <a class="dropdown-item" href="retail&ecommerce.html">RETAIL & ECOMMERCE</a>
+                                            <a class="dropdown-item" href="Transportation&Logistics.html">TRANSPORTATION & LOGISTICS</a>
+                                            <a class="dropdown-item" href="technology.html">TECHNOLOGY</a>
+                                            <a class="dropdown-item" href="Travel&Hospitality.html">TRAVEL & HOSPITALITY</a>
+                                            <a class="dropdown-item" href="energy&utility.html">ENERGY & UTILITIES</a>
+                                            <a class="dropdown-item" href="publicSector.html">PUBLIC SECTOR</a>
+                                            <a class="dropdown-item more-home-page" style="color: blueviolet; " onmouseover="this.style.background = 'none'"   href="industrieshome.html">Discover More Industries...</a>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Company.html" role="button" aria-haspopup="true" aria-expanded="false">Company</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="OurLeadership.html">OUR LEADERSHIP</a>
+                                            <a class="dropdown-item" href="Our People.html">OUR PEOPLE</a>
+                                            <a class="dropdown-item more-home-page" style="color: blueviolet; " onmouseover="this.style.background = 'none'"   href="Company.html">Know more about us...</a>
+                                        </div>
+                                    </li>
+                                    
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="Careers.html">Career</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                    <li style="margin-top: 0.39rem; margin-left: 1rem;"><i class="fal fa-grip-lines-vertical d-none d-lg-block d-xl-block d-md-block"></i></li>
+                                    <li style="margin-left: 1rem; margin-top: 0.39rem;" class="search-trigger d-lg-inline-block"><a href="javascript:void(0)"><i class="fas fa-search d-none d-lg-block d-xl-block d-md-block"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>		
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- End Header Area -->
+     <!-- Start Slider Area -->
+     <div class="slider-area ">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-12">
+                    <div class="slider-carousel owl-carousel">
+                        <div class="single-slider slider-bg-1 text-center" style="background-image:url(https://images.unsplash.com/photo-1539627831859-a911cf04d3cd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80);"> 
+                            <div class="slider-inner" data-aos="back-in-up">
+                                <h1 class="container pt-5 mt-5" id="customer-heading">Customer Service Solutions</h1>
+                                <h5 class="container">Every year, over 2 billion customer interactions are registered. All of them are driven by customer service solutions that are built to streamline processes, drive creativity, and increase the return on investment—and they're all insanely good!</h5>
+                                <a class="btn get-started-btn" href="contact.html">LEARN MORE</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Slider Area -->
+    <!-- Start Section Area -->
+<br><br><br><br><br>
+    <section class="featured-area">
+        <div class="container text-center" data-aos="fade-down">
+            <div class="row ml-0 mr-0 d-lg-inline-block">
+                <h1 class="container">We only have one job.</h1>
+                <p class="container">That is to say, I will be there for you. To assist you in delighting your clients, strengthening your brand, and positioning your business at the forefront of success. Since, at the end of the day, we just have one job—to make yours easier—we're constantly rethinking customer interaction and how to improve the customer experience.
+                </p>
+            </div>
+        </div>
+<br><br><br><br>
+
+        <div class="container text-center" data-aos="fade-down">
+            <div class="row ml-0 mr-0 d-lg-inline-block">
+                <div class="col-xl-12">
+                    <img style="height: 200px; margin: auto;" class="img-circle img-responsive" src="https://cdn.pixabay.com/photo/2016/11/30/18/14/chat-1873536_960_720.png" alt="">
+                </div>
+            </div>
+            <div class="row ml-0 mr-0 d-lg-inline-block">
+                <h1 class="container mt-0">Customer Relationship Management</h1>
+                
+                <p class="container">Any great brand recognises that its consumers are its most important asset. Yeah, it's a basic philosophy, but it can get a little complicated when applied to an interactive online, offline, in-store, smartphone, and virtual journey. That's where Shelbey's customer service outsourcing strategies come in: to provide a consistent customer experience, creative sales and revenue generation, technical support, and back-office solutions.
+                </p>
+            </div>
+        </div>
+<br><br><br><br>
+
+<div class="container text-center" data-aos="fade-down">
+    <div class="row ml-0 mr-0 d-lg-inline-block">
+        <div class="col-xl-12">
+            <img style="height: 158px;  margin: auto;" class="img-circle img-responsive" src="https://cdn.pixabay.com/photo/2020/07/24/10/55/money-5433673_960_720.png" alt="">
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-0 mr-0 d-lg-inline-block">
+        <h1 class="container mt-0">Financial Solutions</h1>
+        <h5 class="container mt-0">Increased receivables and high-quality customer service—staying in the black prevents you from seeing red.</h5>
+        <p class="container">Financial solutions are about more than just collecting payables; they're also about maintaining customer relationships. Innovative methods, regulatory and enforcement leadership, and more than 85 years of experience underpin our financial strategies, all of which are structured to minimise risk, improve customer loyalty, and achieve the results you seek.
+        </p>
+    </div>
+</div>
+
+<br><br><br><br>
+
+<div class="container text-center" data-aos="fade-down">
+    <div class="row ml-0 mr-0 d-lg-inline-block">
+        <div class="col-xl-12">
+            <img style="height: 231px;  margin: auto; " class="img-circle img-responsive" src="/assets/img/healthsection img.png" alt="">
+        </div>
+    </div>
+    <div class="row ml-0 mr-0 d-lg-inline-block">
+        <h1 class="container mt-0">Healthcare Solutions</h1>
+        Patient loyalty, compliance, and cost-effectiveness on a regular basis—exactly what the doctor ordered to keep patients satisfied and the bottom line safe.
+        <p class="container">Few markets have changed as dramatically as healthcare in recent years. Healthcare organisations need a partner who can effectively manage the relentless twists and turns in a landscape of rising rivalry, regulatory and enforcement uncertainty, and cost pressures.Leading healthcare organisations use shelbey customer support, call centre outsourcing, and BPO facilities to increase top line sales, control costs, and deliver outstanding patient experiences.
+        </p>
+    </div>
+</div>
+
+<br><br><br><br>
+        
+<div class="container text-center" data-aos="fade-down">
+    <div class="row ml-0 mr-0 d-lg-inline-block">
+        <div class="col-xl-12">
+            <img style="height: 200px; margin-bottom: 35px;" class="img-circle img-responsive" src="https://cdn.pixabay.com/photo/2017/04/11/22/25/tv-2223047_960_720.png" alt="">
+        </div>
+        
+    </div>
+    <div class="row ml-0 mr-0 d-lg-inline-block">
+        <h1 class="container mt-0">Digital Services</h1>
+        <h5 class="container mt-0">21st century innovations. 23rd century aspirations.</h5>
+        <p class="container">The backbone of a portfolio of services that deliver consumer insights to minimise costs and optimise outcomes is data-driven insights and cutting-edge technology. They also give your customers the freedom to connect as and when they want through their favourite platforms, which, as we all know, are always evolving.
+        </p>
+    </div>
+</div>
+
+<br><br><br>
+   
+    </section>
+    <br>
+
+<!-- Content End Here -->
+
+<br><br><br>
+
+<div class="container text-center">
+    <div class="row ml-0 mr-0 d-lg-inline-block" data-aos="zoom-in">
+        <h1 class="container">Let's Get Started</h1>
+        <p class="container">Your business has unique customer management needs. See the difference a personalized solution can mean to your customer retention, satisfaction and bottom line.</p>
+    </div>
+        <div class="row center-row ml-0 mr-0 pt-4">
+            <a data-aos="fade-in-down" class="btn btn-primary " href="contact.html">Contact Us</a>
+        </div>
+</div>
+
+
+     <!-- End Section Area -->
+    <!-- Start Footer Area -->
+    <!-- <br><br><br> -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#171a21" fill-opacity="1" d="M0,256L1440,192L1440,320L0,320Z"></path></svg>
+    <footer class="footer-area pt-60 pb-60 black-bg" id="contact-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html">Shelbey </a>
+                        </div>
+                        <div class="footer-dec">
+                            <p>Our Vision is to make a positive impact on the best brands in the world, on our people, and on our global communities.</p>
+                        </div>
+                        <ul class="social-links">
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h6>Solution</h6>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="CustomerCare.html">Customer Care Services</a></li>
+                            <li><a href="RevenueGeneration.html">Revenue Generation</a></li>
+                            <li><a href="TechnicalSupportServices&Solutions.html">technical Support</a></li>
+                            <li><a href="Omnichannel.html">Omni Channel</a></li>
+                            <li><a href="BackOffice.html">Back Office</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h6>Industries</h6>
+                        </div>
+                        <ul class="footer-menu">
+                            <li><a href="communication.html">Communications</a></li>
+                            <li><a href="healthcare.html">Health Care</a></li>
+                            <li><a href="financialservices.html">Financial Services</a></li>
+                            <li><a href="retail&ecommerce.html">Retail & Ecommerce</a></li>
+                            <li><a href="Transportation&Logistics.html">Transportation & Logistics</a></li>
+                            <li><a href="technology.html">Technology</a></li>
+                            <li><a href="Travel&Hospitality.html">Travel & Hospitality</a></li>
+                            <li><a href="energy&utility.html">Energy & Utilities</a></li>
+                            <li><a href="publicSector.html">Public Sector</a></li>
+                        </ul>
+                    </div>
+                </div>
+ 
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <div class="widget-title">
+                            <h6>Contact us</h6>
+                        </div>
+                        <div class="address-line">
+                            <p style="text-align: inherit;">Address: 312 West 2nd Street #1761 Casper, WY 82601-2412</p>
+                            <p style="text-align: inherit;">Tel: <a href="tel:+1 (805) 387-7606">+1 (805) 387-7606</a></p>
+                            <p style="text-align: inherit;">Phone: <a href="tel:+1 9179858363">+1 9179858363</a></p>
+                            <p style="text-align: inherit;">Email: <a href="mailto:contactus@shelbeybrothers.com">contactus@shelbeybrothers.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+    <!-- End Copyright Area -->
+    <div class="copyright-area black-bg">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 text-center">
+                    <div class="copyright-area ">
+                        <p>Copyright © 2021. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Copyright Area -->
+<!-- JS -->
+   <!-- Popper.js -->
+   <script src="assets/js/popper.min.js"></script>
+   <!-- Bootstrap.js -->
+   <script src="assets/js/bootstrap-4.3.1.min.js"></script>
+   <!-- Modernizr.js -->
+   <script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+   <!-- Owl.Carousel.js -->
+   <script src="assets/js/vendor/owl.carousel-2.3.4.min.js"></script>
+   <script src="assets/js/vendor/owl.carousel2.thumbs.min.js"></script>
+   <!-- Waypoints.js -->
+   <script src="assets/js/vendor/waypoints-4.0.1.min.js"></script>
+   <!-- ColorNip.js -->
+   <script src="assets/js/vendor/colornip.min.js"></script>
+   <!-- SlickNav.js -->
+   <script src="assets/js/vendor/slicknav.min.js"></script>
+   <!-- ScrollUp.js -->
+   <script src="assets/js/vendor/jquery.scrollUp.min.js"></script>
+   <!-- MagnificPopup.js -->
+   <script src="assets/js/vendor/magnific-popup.min.js"></script>
+   <!-- Main.js -->
+   <script src="assets/js/main.js"></script>
+
+
+   <!-- --------> 
+   <!-- Navbar-Custom-Js -->
+   <script src="assets\js\nav-bar.js"></script>
+
+    <!-- --Animation.js-- -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                    <script>
+                      AOS.init({
+                          offset: 100,
+                          duration: 1000
+                      });
+                    </script>
+</body>
+</html>
